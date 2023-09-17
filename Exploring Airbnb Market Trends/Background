@@ -1,0 +1,6 @@
+You are a consultant working for a real estate start-up and have been asked to look into the short-term rental market in New York, so you've gathered Airbnb listing data from several different sources. You'll examine this data to answer the following questions, but you'll need to combine the different files from your three sources into one dataset and clean it in order to calculate the metrics you're interested in.
+Your task is to create a tibble called review_dates with four columns: first_reviewed, last_reviewed, nb_private_rooms, and avg_price. The tibble should only contain one row of values.
+
+The columns first_reviewed and last_reviewed should contain the earliest and most recent reviews in the dataset, respectively.
+The column avg_price should be a numeric variable containing the average listing price in the dataset.
+The coumn nb_private_rooms should be a numeric variable containing the number of listings that are private rooms.
